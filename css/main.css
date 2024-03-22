@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #000000;  
+}
+.form{
+    height: 455px;
+    width:390px;
+    background-color:#26262a;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column; 
+    font-family: 'Mulish', sans-serif;
+    font-weight: 800;
+    overflow:visible;
+}
+.logo{
+    margin-top: -15px;
+    margin-bottom: 40px;
+    margin-left: -168px;
+} 
+input{
+    width:310px;
+    height:53px;
+    margin-top: 12px;
+    margin-right: 20px;
+    margin-left: 20px;
+    background-color:rgb(24, 22, 22) ;
+    border: none;
+    font-size: 25px;
+    color: #f2f2f2;
+}
+input:focus{
+    border:2px solid white;
+    outline: none;
+}
+label{
+    color:#f2f2f2;
+    margin-top: 10px;
+    margin-left: 20px;
+    font-size: 15px;
+    font-weight: 700;
+}
+.username{
+    margin-bottom:20px;
+}
+.forgot{
+    margin-left: -198px;
+    margin-top: 10px;
+    color:#009bff;
+    text-decoration: underline;
+    font-weight: 500;
+    font-size: 13px;
+}
+.button{
+    width:310px;
+    height:52px;
+    background-color:#009bff;
+    border: none;
+    margin-top: 45px;
+    font-weight: bold;
+}
+   @media screen and (max-width:400px){
+     .form{
+          height:100vh;
+          width:100vw;
+ 
+       }
+     .logo{
+         margin-top: -80px;
+         margin-left: -110px;
+         margin-bottom: 70px;
+       }  
+       input{
+           width:270px;
+           height:48px;
+           color:white;
+       }
+       input:focus{
+           outline-color: white;
+       } 
+       .forgot{
+           margin-left: -155px;
+       }
+       .button{
+        width:270px;
+        height:48px;
+        margin-top: 220px;
+      } 
+ } 
